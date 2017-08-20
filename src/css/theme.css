@@ -1,0 +1,249 @@
+
+  		.page-control { 
+  			max-width:980px;
+  			margin: auto;
+        border-radius: 0;
+        min-width: 400px;
+
+  		}
+      .contact-control {
+        background-color: #075b42;
+        position: relative;
+      }
+  		.cover-photo {
+  			max-width: 100%;
+        opacity: 0.5;
+  		}
+  		.profile {
+  			position: absolute;
+  			top:138px;
+        height: 150px;
+        width: 185px;
+  		}
+      .intro {
+        font-size: 35px;
+        font-family: Verdana, Geneva, sans-serif; 
+        color: #ed8a09;
+        min-width: 410px;
+      }
+      .inline {
+        display: inline-block;
+      }
+      .inline:last-child {
+        display: inline-block;
+      }
+  		.nav-bar {
+  			overflow: initial;
+        height: 60px;
+        position: relative;
+        background: none;
+        max-width: 100%;
+        background-color: #075b42;
+        border-radius: 20px 20px 0px 0px;
+        margin-bottom: 10px;
+        padding-left: 5px;
+  		}
+      .nav-list {
+        position: absolute;
+      }
+  		.links {
+  			float: left;
+  			padding: 7px 20px 7px 0px;
+  			text-align: center;
+  			display: block;
+  			font-size: 19px;
+  			font-family: Verdana,sans-serif;
+
+  		}
+  		.active-link:hover, .active-link:active {
+        font-size: 130%;
+  		}
+      .active-link {
+        color: #9acd32;
+        text-decoration: none;
+      }
+  		.menu-icon {
+		    margin-top: 3px;
+        position: relative;
+  		}
+  		.right-allign {
+  			float: right;
+  		}
+  		.dropbtn {
+		    color: white;
+		    font-size: 16px;
+		    border: none;
+		    cursor: pointer;
+		    margin-top: 0px;
+        position: absolute;
+        background: none;
+        outline: none;
+		}
+
+		.dropdown {
+        right: 0px;
+		    display: inline-block;
+        float: left;
+        position: relative;
+        top: 16px;
+        width: 100%
+		}
+    a.dropmenu:hover {
+      opacity: 0.7;
+      background-color: #3f7766;
+    }
+		.dropdown-content {
+		    display: none;
+		    position: absolute;
+        top: 45px;
+        right: 0;
+		    background: none;
+		    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        left: -4px;
+		}
+		.hidden{
+			display: none;
+		}
+		.dropdown-content a {
+		    color: #9acd32;
+		    padding: 12px 16px;
+		    text-decoration: none;
+		    display: block;
+		}
+		.no-border {
+			border : 0;
+			box-shadow: none;
+		}
+		nav select {
+			display: none;
+		}
+		@media(max-width: 550px) {
+			nav ul {display: none;}
+			.dropdown-display {
+				display: inline-block;
+			}
+      .intro {
+        display: inline-block;
+      }
+
+      .contact-right-screen-to-left {
+        display: block;
+        float: left;
+      }
+      .block{
+        display: block;
+        width: 100%;
+      }
+		}
+    .label-type {
+      font-size: 30px;
+      text-align: center;
+      max-width: 550px;
+    }
+    .center-align {
+      margin: auto;
+      width: 400px;
+      line-height: 25px;
+      margin-bottom: 15px;
+    }
+    .input-screen {
+      border-radius: 10px;
+      width: 300px;
+      outline: none;
+      margin-left: 20px;
+    }
+    .fa-phone::before {
+      content: "\f095";
+    }
+    .icon-feature {
+      margin-left: 20px;
+      padding-right: 20px;
+      color:#009688;
+      font-size:25px;
+    }
+    .icon-description {
+      padding-left: 20px;
+      color:#009606;
+      font-size:20px; 
+      margin-bottom: 40px;
+    }
+    .contact-head {
+      font-size: 25px;
+      font-family: monospace;
+      border-radius: 10px;
+      padding: 10px 20px 10px 20px;
+      color: #9acd32;
+    }
+    .contact-left-screen {
+      float: left;
+      max-width: 490px;
+    }
+    .contact-right-screen {
+      float: right;
+      max-width :480px;
+    }
+    .social-tag {
+      font-size: 25px;
+      margin-top: 10px;
+      padding: 10px 20px 10px 20px;
+      color:#009688;
+    }
+    .social-icon {
+      text-decoration: none;
+    }
+    .imtroduction-left {
+      float: left;
+      max-width: 480px;
+    }
+    .introduction-right {
+      float: right;
+      max-width: 490px;
+    }
+    .details-about {
+      font-size: 20px;
+      color: #e9967a;
+      font-family: Caflisch Script Pro, cursive;
+      font-style: italic;
+      padding: 20px; 
+      margin:auto;
+      max-width: 100%;
+      border: 5px solid beige;
+      box-shadow: 0 4px 8px 0 #888888, 0 6px 20px 0 #888888;
+      position: relative;
+    }
+    .exp {
+    padding: 20px;
+    font-size: 25px;
+    font-family: cursive;
+    color: yellowgreen;
+    border: 5px solid beige;
+    box-shadow: 0 4px 8px 0 #888888, 0 6px 20px 0 #888888;
+    }
+    .job-desc {
+      font-size: 20px;
+      font-family: monospace;
+      color: #e9967a;
+    }
+    .job-date {
+      font-size: 22px;
+      font-family: monospace;
+      color: #427878;
+    }
+    .edu {
+    padding: 20px;
+    font-size: 25px;
+    font-family: cursive;
+    color: yellowgreen;
+    border: 5px solid beige;
+    box-shadow: 0 4px 8px 0 #888888, 0 6px 20px 0 #888888;
+    }
+    .edu-desc {
+      font-size: 20px;
+      font-family: monospace;
+      color: #e9967a;
+    }
+    .edu-date {
+      font-size: 22px;
+      font-family: monospace;
+      color: #427878;
+    }
